@@ -1,3 +1,9 @@
+'use strict';
+/* 
+   Updates will be posted very soon
+   Continue following this repo 
+*/
+
 const express = require('express');
 var app = express();
 const http = require('http');
