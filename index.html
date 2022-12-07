@@ -1,3 +1,5 @@
+<!-- updates will be posted soon -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,7 +66,6 @@
     
     form.addEventListener("submit", (e) => {
         e.preventDefault();
-        var bad_words_filter = ["fuck", "shit", "idiot", "nig", "wretch"];
 
         var messageText = document.getElementById("msgText").value;
         socket.emit("newMessage", messageText, room, uname);
